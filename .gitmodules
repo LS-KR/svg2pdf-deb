@@ -1,0 +1,3 @@
+[submodule "svg2pdf"]
+	path = svg2pdf
+	url = https://github.com/LS-KR/svg2pdf

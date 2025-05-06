@@ -1,0 +1,21 @@
+Source: svg2pdf
+Maintainer: laurmaedje <laurmaedje@gmail.com>
+Section: Utilities
+Priority: optional
+Build-Depends: wget,
+               curl,
+               cargo,
+               libghc-typst-dev,
+               libghc-typst-doc,
+               pkgconf,
+               debhelper,
+Standards-Version: 4.5.0.3
+Vcs-Browser: https://github.com/typst/svg2pdf
+Vcs-Git: https://github.com/typst/svg2pdf.git
+Package: svg2pdf
+Architecture: amd64
+Depends: cargo,
+         libghc-typst-prof,
+         pkgconf
+Description: Typst is a new markup-based typesetting system that is designed to be as powerful as LaTeX while being much easier to learn and use.
+Version: 0.13.0
